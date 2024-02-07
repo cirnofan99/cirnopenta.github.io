@@ -1,6 +1,6 @@
 <Module>
-  <ModulePrefs title="Baldi's Basics"/>
-    <Content type="html">
-      <link rel="stylesheet" href="https://cirnofan99.github.io/cirnopenta.github.io/baldi/style.css"> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/UnityProgress.js"></script> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/baldi.js"></script> <script> var gameInstance = UnityLoader.instantiate("gameContainer", "https://cirnofan99.github.io/cirnopenta.github.io/baldi/baldi.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}}); </script> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/FSCR.js"></script> <div class="webgl-content"> <div id="gameContainer" style="width: 100vw; height: 100vh"></div> </div>
-    </Content>
+<ModulePrefs title="Baldi's Basics"/>
+<Content type="html">
+<link rel="stylesheet" href="https://cirnofan99.github.io/cirnopenta.github.io/baldi/style.css"> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/UnityProgress.js"></script> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/baldi.js"></script> <script> var gameInstance = UnityLoader.instantiate("gameContainer", "https://cirnofan99.github.io/cirnopenta.github.io/baldi/baldi.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}}); </script> <script src="https://cirnofan99.github.io/cirnopenta.github.io/baldi/FSCR.js"></script> <div class="webgl-content"> <div id="gameContainer" style="width: 100vw; height: 100vh"></div> </div>
+</Content>
 </Module>
